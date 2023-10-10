@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Interest Rate Calculator - Quickly Calculate Interest on Loans</title>
+    <meta name="description" content="Quickly and accurately calculate interest rates on loans with our easy-to-use interest rate calculator. Determine the interest you\'ll pay and make informed financial decisions. Try our free online calculator now."
+</head>
+
+<body>
+    
+
+    
+
+   
+
+
+    <div class="container">
+        <h1>Interest Rate Calculator</h1>
+        <div class="input-wrapper">
+            <div class="wrapper">
+                <label for="principal">Principal Amount</label>
+                <input type="number" id="principal" value="1000" />
+            </div>
+        </div>
+        <div class="input-wrapper">
+            <div class="wrapper">
+                <label for="rate">Rate (%)</label>
+                <input type="number" id="rate" value="5" />
+            </div>
+        </div>
+        <div class="input-wrapper">
+            <div class="wrapper">
+                <label for="time">Time (Years)</label>
+                <input type="number" id="time" value="1" />
+            </div>
+        </div>
+        <button id="calculate-btn" onclick="calculate()">Calculate</button>
+        <div id="result"></div>
+    </div>
+</body>
+
+</html>
