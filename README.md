@@ -1,4 +1,5 @@
-# IBMFrontEnd
+# IBMFRONTEND
+
 ## IBM Front-End Developer Professional Certificate (11 course series)
 
 Front-end developer is one of the top 4 in-demand IT roles according to recruiters (Statista). This program gives you the job-ready front-end development skills to plan, build, deploy, and test web designs and applications employers are looking for in just 4 months. No prior experience required. 
